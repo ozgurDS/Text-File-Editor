@@ -13,7 +13,7 @@ You will need Python with the necessary modules installed to run the program. Th
 
 Open your terminal and simply locate the folder of the program. Then, simply call the program with python and enter the text file you need to modify as the parameter. 
 
-Example: `python3 text-editor.py text.txt` We run the text-editor code with the given file text.txt.
+Example: `python3 text-file-editor.py text.txt` We run the text-editor code with the given file text.txt.
 
 Once you started the program, you can do as many operations as you want before closing it.
 
