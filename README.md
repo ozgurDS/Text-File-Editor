@@ -29,7 +29,7 @@ You can also use the expression `-` more than 2 times. For example, running `F -
 
 ## Closing the Program
 
-After finishing, simply run `q` to closing the program. The operations you committed will be saved automatically.
+After finishing, simply run command `q` to close the program. The operations you committed will be saved automatically.
 
 
 ## License
