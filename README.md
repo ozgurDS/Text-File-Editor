@@ -3,7 +3,7 @@
 
 ## About
 
-This project aiming to create a file editor for manipulating the words in a text based file. The program has 3 main functions: finding, replacing and deleting the words as the user pleases.
+This project aims to create a file editor program for manipulating the words in a text based file. The program has 3 main functions: finding, replacing and deleting the words in the selected file as the user pleases.
 
 ## Getting Started
 
