@@ -19,9 +19,9 @@ Once you started the program, you can do as many operations as you want before c
 
 ## Commands and Usage  
 
-The program has 3 main commands: F command for finding the total count of the given input word in the file, R command for replacing the word with another word and D command for deleting the word. For example: If we run `F apple` command, the program returns the count of the word apple in the file. If we run `R apple banana` command, the program replaces all the apples with banana. If we run `D apple` command, the program deletes all the apples from the file. 
+The program has 3 main commands: F command for finding the total count of the given input word in the file, R command for replacing the word with another word and D command for deleting the word. For example: If we run `F apple` command, the program returns the count of the word "apple" in the file. If we run `R apple banana` command, the program replaces all the apples with bananas. If we run `D apple` command, the program deletes all the apples from the file. 
 
-The program also has 2 special expressions `-` and `*` where `-` stands for any character and `*` stands for zero or any number of characters. For example, when we run `F -il-` command, the program returns the number of 4 character words starting and ending with any character with "il" in the middle such as will, bill, file etc. If we run `F *il*` command instead, the program returns any word that has "il" in it. Example outputs: ill, drill, ilusion etc. 
+The program also has 2 special expressions, `-` and `*` where `-` stands for any character and `*` stands for zero or any number of characters. For example, when we run `F -il-` command, the program returns the number of 4 character words starting and ending with any character with "il" in the middle such as will, bill, file etc. If we run `F *il*` command instead, the program returns any word that has "il" in it. Example outputs: ill, drill, ilusion etc. 
 
 The 2 expressions can be combined for the specific operations. For example, the command `F -il*` will return us the number of the words those starts with any character but the "il" must take place in second to third character in the word and the word can end with any number of characters. Example outputs: bill, pillars, nile etc.
 
